@@ -25,7 +25,7 @@ The data is encoded as UTF-8 text in tab-separated format and compressed with Gz
 * post_id_fingerprint (unsigned int64)
 * post_timestamp (Unix epoch time in milliseconds)
 * action_timestamp (Unix epoch time in milliseconds)
-* user_timezone
+* user_timezone ([Freebase timezone name](https://www.freebase.com/time/time_zone/time_zone_name_standard) eg. [Central Standard Time)](https://www.freebase.com/m/02fqwt))
 
 ### Example ###
 
@@ -37,13 +37,13 @@ The dataset is divided into sets grouped by the date of the post creation.
 
 If you'd like to cite these data sets in a publication, you may use:
 ```
-Klout, User Timestamp Open Data Set, https://github.com/opendata, 02 23, 2015.
+Klout, Social Network Post-Reaction Timestamp Data Set, https://github.com/opendata, 02 23, 2015.
 ```
 
 BibTex:
 ```
 @misc{klout:user_timestamp_open_set,
-  title = "User Timestamp Open Data Set"
+  title = "Social Network Post-Reaction Timestamp Data Set",
   author = "Klout",
   howpublished = "\url{https://github.com/klout/opendata}",
   edition = "02 23, 2015",
