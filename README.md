@@ -20,9 +20,9 @@ The dataset contains **sampled anonymized** action and reaction events for posts
 
 The data is encoded as UTF-8 text in tab-separated format and compressed with Gzip. The columns in the dataset are defined as:
 
-* user_id_fingerprint (unsigned int64)
-* actor_id_fingerprint (unsigned int64)
-* post_id_fingerprint (unsigned int64)
+* user_id_fingerprint (signed int64)
+* actor_id_fingerprint (signed int64)
+* post_id_fingerprint (signed int64)
 * post_timestamp (Unix epoch time in milliseconds)
 * action_timestamp (Unix epoch time in milliseconds)
 * user_timezone ([Freebase timezone name](https://www.freebase.com/time/time_zone/time_zone_name_standard) eg. [Central Standard Time)](https://www.freebase.com/m/02fqwt))
