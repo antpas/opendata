@@ -37,16 +37,18 @@ The dataset is divided into sets grouped by the date of the post creation.
 
 If you'd like to cite these data sets in a publication, you may use:
 ```
-Klout, Social Network Post-Reaction Timestamp Data Set, https://github.com/opendata, 02 23, 2015.
+Nemanja Spasojevic, Zhisheng Li, Adithya Rao, Prantik Bhattacharyya, 
+When-To-Post on Social Networks, 
+Proceedings of ACM Conference on Knowledge Discovery and Data Mining (KDD), 2015.
 ```
 
 BibTex:
 ```
-@misc{klout:user_timestamp_open_set,
-  title = "Social Network Post-Reaction Timestamp Data Set",
-  author = "Klout",
-  howpublished = "\url{https://github.com/klout/opendata}",
-  edition = "02 23, 2015",
-  year = "2015"
+@inproceedings{Spasojevic:when-to-post,
+ author = {Spasojevic, Nemanja and Li, Zhisheng and Rao, Adithya and Bhattacharyya, Prantik},
+ title = {When-To-Post on Social Networks},
+ booktitle = {Proc. of ACM Conference on Knowledge Discovery and Data Mining (KDD)},
+ series = {KDD '15},
+ year = {2015}
 }
 ```
