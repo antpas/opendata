@@ -35,7 +35,7 @@ The dataset is divided into sets grouped by the date of the post creation.
 
 ### Citing ###
 
-If you'd like to cite these data sets in a publication, you may use:
+If you use the dataset, please cite:
 ```
 Nemanja Spasojevic, Zhisheng Li, Adithya Rao, Prantik Bhattacharyya, 
 When-To-Post on Social Networks, 
