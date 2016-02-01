@@ -36,7 +36,7 @@ The dataset is divided into sets grouped by the date of the post creation.
 
 ### Citing ###
 
-Paper([acm](http://dl.acm.org/citation.cfm?id=2783258.2788584), [arxiv](http://arxiv.org/abs/1506.02089)), [Video](https://www.youtube.com/watch?v=RN7z6W_EwqM), [Slides](http://www.slideshare.net/sofrasofra/bids2015-when-to-post-on-social-media-2)
+Paper ([acm](http://dl.acm.org/citation.cfm?id=2783258.2788584), [arxiv](http://arxiv.org/abs/1506.02089)), [Video](https://www.youtube.com/watch?v=RN7z6W_EwqM), [Slides](http://www.slideshare.net/sofrasofra/bids2015-when-to-post-on-social-media-2)
 
 If you use the dataset, please cite:
 ```
