@@ -33,7 +33,10 @@ The data is encoded as UTF-8 text in tab-separated format and compressed with Gz
 
 The dataset is divided into sets grouped by the date of the post creation.
 
+
 ### Citing ###
+
+[Paper](http://arxiv.org/abs/1506.02089), [Video](https://www.youtube.com/watch?v=RN7z6W_EwqM), [Slides](http://www.slideshare.net/sofrasofra/bids2015-when-to-post-on-social-media-2)
 
 If you use the dataset, please cite:
 ```
