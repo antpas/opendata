@@ -2,7 +2,7 @@
 
 ### Twitter User List By Political Leaning  ###
 
-As part of our research on classifying political leaning from tweets, we run experiments on users that were listed on [Twitter Lists](https://dev.twitter.com/rest/reference/get/lists/list) as *Democrat** or **Republican**. We identify users as follows: 
+As part of our research on classifying political leaning from tweets, we run experiments on users that were listed on [Twitter Lists](https://dev.twitter.com/rest/reference/get/lists/list) as **Democrat** or **Republican**. We identify users as follows: 
    - **DEMOCRAT** - is a user on a list having 'democrat', 'democratic party', or 'democrats' in it's title 
    - **REPUBLICAN** - is a user on a list having 'republican', 'republican party', or'republicans' in it's title
    
