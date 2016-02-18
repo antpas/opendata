@@ -14,4 +14,21 @@ The tweets of these users sampled over a period of 3 months between Oct 12th 201
 
 ### Models ###
 
-Coming soon..
+Messages sampled from the dataset described above were used to train models. The model that gave the highest accuracy is available for download, along with the network architecture and the tokenizer used. This model was trained using the "Adam" optimizer with sigmoid activation. The following hyperparameters were used for training:
+   
+   - Training set samples : 336,000
+   - Test Set samples : 84,000
+   - Vocabulary Size : 20,000
+   - Max input length (tokens) : 50 
+   - Embedding Layer Units : 128
+   - LSTM Layer Units : 32
+   - Dropout fraction : 0.5
+
+The model was trained for 2 epochs, which was sufficient for convergence. Training for epochs greater than 2 led to overfitting. 
+
+The final accuracy values were as below:
+
+   - Training set accuracy : **88.82 %**
+   - Test set accuracy : **87.57 %** 
+   
+The encrypted zip file with the model weights, tokenizer and network architecture is available [here](https://github.com/klout/opendata/blob/master/political_leaning/dem_vs_rep_model.zip). To obtain the password to access the encrypted zip file, please send an email to **team-relevance@klout.com**.
