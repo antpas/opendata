@@ -35,4 +35,4 @@ Some examples of the predictions made by the model are shown below:
 
 ![Examples](Democrats_vs_Republicans_examples.png)
    
-The encrypted zip file with the model weights, tokenizer and network architecture is available [here](https://github.com/klout/opendata/blob/master/political_leaning/democrats_vs_republicans_model.zip). To obtain the password to access the encrypted zip file, please send an email to **team-relevance@klout.com**.
+The encrypted zip file with the model weights, tokenizer and network architecture is available [here](https://github.com/klout/opendata/blob/master/political_leaning/democrats_vs_republicans_model.zip). Password to access the encrypted zip file is 'team-relevance-2016' (with no quotes).
