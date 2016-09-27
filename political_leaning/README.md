@@ -36,3 +36,15 @@ Some examples of the predictions made by the model are shown below:
 ![Examples](Democrats_vs_Republicans_examples.png)
    
 The encrypted zip file with the model weights, tokenizer and network architecture is available [here](https://github.com/klout/opendata/blob/master/political_leaning/democrats_vs_republicans_model.zip). Password to access the encrypted zip file is 'team-relevance-2016' (with no quotes).
+
+
+### [New Updated Model Update 2016.09.27] ### 
+New model avaiable here
+[here](https://github.com/klout/opendata/blob/master/political_leaning/democrat_republican_by_list_20160816_1M_sample_open_data.tar.gz)
+together with code to run line by line prediction. Data set was generated on month worth of data looking back starting 2016/08/16, with model accuracy of ~90% on the sample data. To run example extract the archive and run command run. Example:
+
+```
+tar xvfz democrat_republican_by_list_20160816_1M_sample_open_data.tar.gz
+cd democrat_republican_by_list_20160816_1M_sample_open_data
+./run # assumes one is using theano  
+```
