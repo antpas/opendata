@@ -48,3 +48,12 @@ tar xvfz democrat_republican_by_list_20160816_1M_sample_open_data.tar.gz
 cd democrat_republican_by_list_20160816_1M_sample_open_data
 ./run # assumes one is using theano  
 ```
+### Update Full Model List 2016.09.27 ###
+
+Table with models avaiable:
+
+  Model                    |      Date         |  Note | Training Set Size | Accuracy | Download
+-------------------------- | ----------------- | ----- | ----------------- |--------- | ---------
+20160816_1M_sample         | 20160716-20160816 |       | 0.906 | 1,000,000 | download 
+20160928_1M_sample         | 20160928-20160928 |       | 0.90125 |   1,000,000 | download 
+20160928_750k_no_mention   | 20160928-20160928 |  Tweets with no mentions only.| 0.71831 | 750,000 | download 
