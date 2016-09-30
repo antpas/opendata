@@ -57,3 +57,18 @@ Table with models avaiable:
 20160816_1M_sample         | 20160716-20160816 |       | 0.906 | 1,000,000 | [download](https://github.com/klout/opendata/blob/master/political_leaning/democrat_republican_by_list_20160816_1M_sample_open_data.tar.gz) 
 20160928_1M_sample         | 20160928-20160928 |       | 0.90125 |   1,000,000 | [download](https://github.com/klout/opendata/blob/master/political_leaning/democrat_republican_by_list_20160928_1M_sample.tar.gz)  
 20160928_750k_no_mention   | 20160928-20160928 |  Tweets with no mentions only.| 0.71831 | 750,000 | [download](https://github.com/klout/opendata/blob/master/political_leaning/democrat_republican_by_list_20160928_750k_no_mention.tar.gz)  
+
+
+```
+# pips used
+sudo pip install flask==0.11
+sudo pip install cherrypy==8.1.0
+sudo pip install numpy==1.11
+sudo pip install scipy==0.17.1
+sudo pip install h5py==2.6.0
+sudo pip install theano==0.8.2
+sudo pip install keras==1.0.4
+sudo pip install datadog==0.13.0
+sudo pip install healthcheck==1.3.1
+
+```
