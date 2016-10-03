@@ -1,5 +1,22 @@
 ### Data Sets ###
 
+### Paper ### 
+
+
+Paper avaiavle [here](https://arxiv.org/pdf/1607.02501.pdf).
+
+```
+@inproceedings{DBLP:conf/kdd/Rao16,
+  author    = {Adithya Rao and Nemanja Spasojevic},
+  title     = {Actionable and Political Text Classification using Word Embeddings and LSTM},
+  booktitle = {Proceedings of the Fifth International Workshop on Issues of Sentiment
+               Discovery and Opinion Mining, {WISDOM} 2016, San Francisco, CA, USA, August
+               14, 2016},
+  year      = {2016},
+  crossref  = {DBLP:conf/kdd/2016wisdom}
+}
+```
+
 ### Twitter User List By Political Leaning  ###
 
 As part of our research on classifying political leaning from tweets, we run experiments on users that were listed on [Twitter Lists](https://dev.twitter.com/rest/reference/get/lists/list) as **Democrat** or **Republican**. We identify users as follows: 
