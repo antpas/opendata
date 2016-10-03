@@ -1,7 +1,6 @@
 ### Data Sets ###
 
-### Paper ### 
-
+### Paper ###
 
 Paper avaiavle [here](https://arxiv.org/pdf/1607.02501.pdf).
 
