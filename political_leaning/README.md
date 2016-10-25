@@ -2,7 +2,7 @@
 
 ### Paper ###
 
-Paper avaiavle [here](https://arxiv.org/pdf/1607.02501.pdf).
+Paper avaiable [here](https://arxiv.org/pdf/1607.02501.pdf).
 
 ```
 @inproceedings{DBLP:conf/kdd/Rao16,
