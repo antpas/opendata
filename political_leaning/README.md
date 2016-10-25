@@ -68,7 +68,7 @@ cd democrat_republican_by_list_20160816_1M_sample_open_data
 
 Table with models avaiable:
 
-  Model                    |      Date         |  Note | Training Set Size | Accuracy | Download
+  Model                    |      Date         |  Note | Accuracy | Training Set Size | Download
 -------------------------- | ----------------- | ----- | ----------------- |--------- | ---------
 20160816_1M_sample         | 20160716-20160816 |       | 0.906 | 1,000,000 | [download](https://github.com/klout/opendata/blob/master/political_leaning/democrat_republican_by_list_20160816_1M_sample_open_data.tar.gz) 
 20160928_1M_sample         | 20160928-20160928 |       | 0.90125 |   1,000,000 | [download](https://github.com/klout/opendata/blob/master/political_leaning/democrat_republican_by_list_20160928_1M_sample.tar.gz)  
