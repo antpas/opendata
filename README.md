@@ -6,3 +6,5 @@ The following datasets are licensed under a [Creative Commons Attribution 3.0 Un
 [Klout topic ontology dataset](klout_topic_ontology/README.md) (Topic [Expertise arxiv](https://arxiv.org/pdf/1608.09002v1.pdf), [Assignment acm](http://dl.acm.org/citation.cfm?id=2623350))
 
 [Political leaning dataset](political_leaning/README.md) ([arxiv](https://arxiv.org/pdf/1607.02501.pdf), [slides](http://www.slideshare.net/sofrasofra/actionable-and-political-text-classification-using-word-embeddings-and-lstm))
+
+[Entity rank dataset](entity_rank/README.md)
