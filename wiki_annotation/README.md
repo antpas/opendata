@@ -3,14 +3,14 @@ The following datasets are licensed under a FIGURE OUT LICENCE OR DISCLAIMER
 
 ### Wikipedia Dense Annotations ###
 
-| Language  | **Doc #**  | **Sample** | **Full** |
+| Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
 |:----------|-----------:|-----------:|---------:|
-| **en**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
-| **es**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_es_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_es_json.tar.gz)   |
-| **it**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_it_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_it_json.tar.gz)   |
-| **fr**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_fr_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_fr_json.tar.gz)   |
-| **de**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_de_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_de_json.tar.gz)   |
-| **ar**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_ar_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_ar_json.tar.gz)   |
+| **en**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+| **es**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_es_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_es_json.tar.gz)   |
+| **it**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_it_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_it_json.tar.gz)   |
+| **fr**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_fr_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_fr_json.tar.gz)   |
+| **de**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_de_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_de_json.tar.gz)   |
+| **ar**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_ar_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_ar_json.tar.gz)   |
 
 Example of single document JSON:
 ```
