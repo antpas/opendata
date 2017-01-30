@@ -4,7 +4,7 @@ The following datasets are licensed under a FIGURE OUT LICENCE OR DISCLAIMER
 ### Wikipedia Dense Annotations ###
 
 | Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
-|:----------|-----------:|-----------:|---------:|
+|:----------|---:|-----------:|-----------:|---------:|
 | **en**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
 | **es**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_es_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_es_json.tar.gz)   |
 | **it**    | v1 | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_it_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_it_json.tar.gz)   |
