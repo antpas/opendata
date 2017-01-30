@@ -3,6 +3,8 @@
 The following datasets are licensed under a [Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 same as [Wikipedia Database Dumps](https://dumps.wikimedia.org/).
 
+![CC BY-NC-SA](CC-BY-NC-SA.png)
+
 Files with gpg extensions are encrypted, to obtain obtain the key please:
   * Send an email to **team-relevance@klout.com**.
   * Let us know what institution are you affiliated with.
