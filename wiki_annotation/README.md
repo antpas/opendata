@@ -2,8 +2,7 @@
 The following datasets are licensed under a FIGURE OUT LICENCE OR DISCLAIMER
 
 Files with gpg extensions are encrypted, to obtain obtain the key please send an email to **team-relevance@klout.com**,
-with brief description what are you planing to use data if anything. Example of how to decrypt file here:
-https://github.com/klout/opendata/tree/master/wiki_annotation#decript-gpg-file
+with brief description what are you planing to use data if anything. Example of how to decrypt file is [down below](https://github.com/klout/opendata/tree/master/wiki_annotation#decript-gpg-file).
 
 ### Data Set ###
 
