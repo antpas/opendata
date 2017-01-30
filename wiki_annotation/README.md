@@ -5,17 +5,12 @@ The following datasets are licensed under a FIGURE OUT LICENCE OR DISCLAIMER
 
 | Language  | **Doc #**  | **Sample** | **Full** |
 |:----------|-----------:|-----------:|---------:|
-| **en**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_es_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_es_json.tar.gz)   |
-| **es**    | x,xxx  |   119,435,659   | 119,435,659   |
-| **it**    | x,xxx  | 1,192,210,822   | 119,435,659   |
-| **fr**    | x,xxx  | 1,192,210,822   | 119,435,659   |
-| **de**    | x,xxx  | 1,192,210,822   | 119,435,659   |
-| **ar**    | x,xxx  | 1,192,210,822   | 119,435,659   |
-
-
-| **fr**    | [1K Sample](sample/user_timestamp_open_set_fb.tsv) | [1K Sample](sample/user_timestamp_open_set_tw.tsv) |
-| **Download**  | [2.3GB tar.gz ](http://opendata.klout.com/user_timestamp_data/user_timestamp_open_dataset/user_timestamp_open_set_fb.tar.gz) | 24GB tar.gz   [1](http://opendata.klout.com/user_timestamp_data/user_timestamp_open_dataset/user_timestamp_open_set_tw.tar.gz.01)  [2](http://opendata.klout.com/user_timestamp_data/user_timestamp_open_dataset/user_timestamp_open_set_tw.tar.gz.02)    [3](http://opendata.klout.com/user_timestamp_data/user_timestamp_open_dataset/user_timestamp_open_set_tw.tar.gz.03)    [4](http://opendata.klout.com/user_timestamp_data/user_timestamp_open_dataset/user_timestamp_open_set_tw.tar.gz.04) [5](http://opendata.klout.com/user_timestamp_data/user_timestamp_open_dataset/user_timestamp_open_set_tw.tar.gz.05)   [6](http://opendata.klout.com/user_timestamp_data/user_timestamp_open_dataset/user_timestamp_open_set_tw.tar.gz.06)
-
+| **en**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+| **es**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_es_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_es_json.tar.gz)   |
+| **it**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_it_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_it_json.tar.gz)   |
+| **fr**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_fr_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_fr_json.tar.gz)   |
+| **de**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_de_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_de_json.tar.gz)   |
+| **ar**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_ar_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_ar_json.tar.gz)   |
 
 Example of single document JSON:
 ```
