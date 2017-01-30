@@ -1,8 +1,13 @@
 ### Usage ###
-The following datasets are licensed under a FIGURE OUT LICENCE OR DISCLAIMER
 
-Files with gpg extensions are encrypted, to obtain obtain the key please send an email to **team-relevance@klout.com**,
-with brief description what are you planing to use data if anything. Example of how to decrypt file is [down below](https://github.com/klout/opendata/tree/master/wiki_annotation#decript-gpg-file).
+The following datasets are licensed under a [Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+same as [Wikipedia Database Dumps](https://dumps.wikimedia.org/).
+
+Files with gpg extensions are encrypted, to obtain obtain the key please:
+  * Send an email to **team-relevance@klout.com**.
+  * Let us know what institution are you affiliated with.
+  * Briefly desscribe what and how are you planing to use data.
+Example of how to decrypt file is [down below](https://github.com/klout/opendata/tree/master/wiki_annotation#decript-gpg-file).
 
 ### Data Set ###
 
