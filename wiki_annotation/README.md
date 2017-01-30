@@ -1,6 +1,15 @@
 ### Usage ###
 The following datasets are licensed under a FIGURE OUT LICENCE OR DISCLAIMER
 
+Files with gpg extensions are encrypted, to obtain obtain the key please send an email to **team-relevance@klout.com**,
+with brief description what are you planing to use data if anything. Example of how to decrypt file here:
+https://github.com/klout/opendata/tree/master/wiki_annotation#decript-gpg-file
+
+### Data Set ###
+
+TODO: - add explanation about the data set 
+
+
 ### Wikipedia Dense Annotations ###
 
 | Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
@@ -77,6 +86,16 @@ Example of single document JSON:
 | **300**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
 | **1000**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
 
+
+### Decript GPG File ###
+
+```
+# Decript File (assuming key locally abaiable in v1.gpg_key)
+gpg --cipher-algo AES256 --passphrase $(cat v1.gpg_key) --output wiki_annotations_sample_es_json.tar.gz --decrypt wiki_annotations_sample_es_json.tar.gz.gpg
+
+# Uncompress File. 
+tar xvfz wiki_annotations_sample_es_json.tar.gz
+```
 
 ### Citing ###
 
