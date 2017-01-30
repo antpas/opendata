@@ -5,8 +5,7 @@ The following datasets are licensed under a FIGURE OUT LICENCE OR DISCLAIMER
 
 | Language  | **Doc #**  | **Sample** | **Full** |
 |:----------|-----------:|-----------:|---------:|
-| **en**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_es_json.tar.gz)   | 
-[2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_es_json.tar.gz)   |
+| **en**    | x,xxx  |    [373kb tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_es_json.tar.gz)   | [2.1GB tar.gz ](opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_es_json.tar.gz)   |
 | **es**    | x,xxx  |   119,435,659   | 119,435,659   |
 | **it**    | x,xxx  | 1,192,210,822   | 119,435,659   |
 | **fr**    | x,xxx  | 1,192,210,822   | 119,435,659   |
