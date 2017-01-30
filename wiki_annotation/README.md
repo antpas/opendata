@@ -58,9 +58,25 @@ Example of single document JSON:
 
 ### Entity Mention ###
 
+| Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
+|:----------|---:|-----------:|-----------:|---------:|
+| **en**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+
 ### Entity Cooccurrences ###
 
+| Language  | **Version #**  | **Pari #**  | **Sample** | **Full** |
+|:----------|---:|-----------:|-----------:|---------:|
+| **en**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+
+
 ### Word2Vec Glove ###
+
+| Vector Size  | **Version #**  | **Entity #**  | **Sample** | **Full** |
+|:----------|---:|-----------:|-----------:|---------:|
+| **50**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+| **300**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+| **1000**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+
 
 ### Citing ###
 
