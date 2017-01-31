@@ -1,4 +1,4 @@
-### Usage ###
+## Usage ##
 
 The following datasets are licensed under a [Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 same as [Wikipedia Database Dumps](https://dumps.wikimedia.org/).
@@ -12,7 +12,7 @@ Files with gpg extensions are encrypted, to obtain obtain the key please:
 
 Example of how to decrypt file is [down below](https://github.com/klout/opendata/tree/master/wiki_annotation#decript-gpg-file).
 
-### Data Set ###
+## Data Set ##
 
 TODO: - add explanation about the data set 
 
