@@ -89,9 +89,9 @@ Example of single document JSON:
 
 | Vector Size  | **Version #**  | **Entity #**  | **Full** |
 |:----------|---:|-----------:|-----------:|
-| **50**    | v1 | 1,612,117  | [tar.gz 316MB](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_50_vectors.tar.gz)   | 
-| **300**   | v1 | 1,612,117  | [tar.gz 1.7GB](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_300_vectors.tar.gz)   | 
-| **1000**  | v1 | 1,612,117  | [1/3 tar.gz 1.9GB ](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz), [2/3 tar.gz 1.8GB](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz), [3/3 tar.gz 1.6GB](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz)   | 
+| **50**    | v1 | 1,612,117  | [316MB tar.gz](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_50_vectors.tar.gz)   | 
+| **300**   | v1 | 1,612,117  | [1.7GB tar.gz](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_300_vectors.tar.gz)   | 
+| **1000**  | v1 | 1,612,117  | [1.9GB tar.gz 1/3](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz), [1.8GB tar.gz 2/3](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz), [1.6GB tar.gz 3/3](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz)   | 
 
 
 ### Decript GPG File ###
