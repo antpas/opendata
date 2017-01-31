@@ -87,11 +87,11 @@ Example of single document JSON:
 
 ### Word2Vec Glove ###
 
-| Vector Size  | **Version #**  | **Entity #**  | **Sample** | **Full** |
-|:----------|---:|-----------:|-----------:|---------:|
-| **50**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
-| **300**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
-| **1000**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+| Vector Size  | **Version #**  | **Entity #**  | **Full** |
+|:----------|---:|-----------:|-----------:|
+| **50**    | v1 | x,xxx  | [TODO](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_50_vectors.tar.gz)   | 
+| **300**   | v1 | x,xxx  | [TODO](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_300_vectors.tar.gz)   | 
+| **1000**  | v1 | x,xxx  | [1/3-1.9G](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz), [2/3-1.8G](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz), [3/3-1.6G](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz)   | 
 
 
 ### Decript GPG File ###
