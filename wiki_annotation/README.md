@@ -1,3 +1,5 @@
+# DAWT: Densely Annotated Wikipedia Texts across multiple languages #
+
 ## Usage ##
 
 The following datasets are licensed under a [Attribution-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-nc-sa/4.0/)
@@ -110,7 +112,7 @@ tar xvfz wiki_annotations_sample_es_json.tar.gz
 If you use the dataset, please cite:
 ```
 author, author, author
-Title Title 
+DAWT: Densely Annotated Wikipedia Texts across multiple languages
 Proceedings of Blap Blop 2017.
 ```
 
@@ -118,7 +120,7 @@ BibTex:
 ```
 @inproceedings{Spasojevic:wiki_annotation,
  author = {...},
- title = {...},
+ title = {DAWT: Densely Annotated Wikipedia Texts across multiple languages},
  booktitle = {...},
  series = {...},
  year = {2017}
