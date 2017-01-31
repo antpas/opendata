@@ -1,4 +1,5 @@
-# DAWT: Densely Annotated Wikipedia Texts across multiple languages #
+# DAWT: #
+# Densely Annotated Wikipedia Texts across multiple languages #
 
 ## Usage ##
 
