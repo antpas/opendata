@@ -8,3 +8,5 @@ The following datasets are licensed under a [Creative Commons Attribution 3.0 Un
 [Political leaning dataset](political_leaning/README.md) ([arxiv](https://arxiv.org/pdf/1607.02501.pdf), [slides](http://www.slideshare.net/sofrasofra/actionable-and-political-text-classification-using-word-embeddings-and-lstm))
 
 [Entity rank dataset](entity_rank/README.md)
+
+[DAWT: Densely Annotated Wikipedia Texts across multiple languages](https://github.com/klout/opendata/tree/master/wiki_annotation)
