@@ -78,12 +78,12 @@ Example of single document JSON:
 
 | Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
-| **en**    | v1 | x,xxx  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_en.tar.gz)   | [295MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_en.tar.gz.gpg)   |
-| **es**    | v1 | x,xxx  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_es.tar.gz)   | [72MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_es.tar.gz.gpg)   |
-| **it**    | v1 | x,xxx  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_it.tar.gz)   | [63MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_it.tar.gz.gpg)   |
-| **fr**    | v1 | x,xxx  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_fr.tar.gz)   | [94MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_fr.tar.gz.gpg)   |
-| **de**    | v1 | x,xxx  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_de.tar.gz)   | [110MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_de.tar.gz.gpg)   |
-| **ar**    | v1 | x,xxx  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_ar.tar.gz)   | [19MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_ar.tar.gz.gpg)   |
+| **en**    | v1 | 6,956,439  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_en.tar.gz)   | [295MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_en.tar.gz.gpg)   |
+| **es**    | v1 | 1,038,284  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_es.tar.gz)   | [72MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_es.tar.gz.gpg)   |
+| **it**    | v1 | 931,369  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_it.tar.gz)   | [63MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_it.tar.gz.gpg)   |
+| **fr**    | v1 | 1,952,818  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_fr.tar.gz)   | [94MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_fr.tar.gz.gpg)   |
+| **de**    | v1 | 2,438,583  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_de.tar.gz)   | [110MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_de.tar.gz.gpg)   |
+| **ar**    | v1 | 433,472  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_ar.tar.gz)   | [19MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_ar.tar.gz.gpg)   |
 
 
 ### Entity Cooccurrences ###
