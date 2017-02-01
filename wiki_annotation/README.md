@@ -99,7 +99,7 @@ Example of single document JSON:
 ### Freebase Id to WikiData Item Id
 
 | **Version #**  | **Entity #**  | **Sample** | **Full** |
-|---:|-----------:|-----------:|---------:|
+|---|-----------:|-----------:|---------:|
 | v1 | 4,432,449 | [1.6K txt](https://github.com/klout/opendata/blob/master/wiki_annotation/freebase_id_wikidata_item_id_sample.txt) | [30MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wikidata_item_id.tar.gz)
 
 ### Decript GPG File ###
