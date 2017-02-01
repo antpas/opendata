@@ -103,7 +103,7 @@ Example of single document JSON:
 | v1 | 4,432,449 | [1.6K txt](https://github.com/klout/opendata/blob/master/wiki_annotation/freebase_id_wikidata_item_id_sample.txt) | [30MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wikidata_item_id.tar.gz)
 
 ### Freebase Id to Wiki Page
-| Language  | **Version #**  | **ENtity #**  | **Full** |
+| Language  | **Version #**  | **Entity #**  | **Full** |
 |:----------|---:|-----------:|---------:|
 | **en**    | v1 | 4,316,959  | [67MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wiki_url.en.tar.gz) |
 | **es**    | v1 | 775,792 | [12MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wiki_url.es.tar.gz) |
