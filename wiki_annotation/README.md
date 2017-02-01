@@ -111,17 +111,17 @@ tar xvfz wiki_annotations_sample_es_json.tar.gz
 
 If you use the dataset, please cite:
 ```
-author, author, author
+Nemanja Spasojevic, Preeti Bhargava and Guoning Hu
 DAWT: Densely Annotated Wikipedia Texts across multiple languages
-Proceedings of Blap Blop 2017.
+In Submission ...
 ```
 
 BibTex:
 ```
 @inproceedings{Spasojevic:wiki_annotation,
- author = {...},
+ author = {Nemanja Spasojevic, Preeti Bhargava and Guoning Hu},
  title = {DAWT: Densely Annotated Wikipedia Texts across multiple languages},
- booktitle = {...},
+ booktitle = {In Submission},
  series = {...},
  year = {2017}
 }
