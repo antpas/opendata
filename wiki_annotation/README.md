@@ -20,6 +20,7 @@ TODO: - add explanation about the data set
 
 
 ### Wikipedia Dense Annotations ###
+Formar new line separated JSON representing document annotations. Example of JSON below table.
 
 | Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
@@ -75,6 +76,8 @@ Example of single document JSON:
 ```
 
 ### Entity-Mention Cooccurance ###
+
+Formar new lines separated by '\n' fields '\t' separated ```<entity_id>	<mention>	<total_count> <total_unique_doc_count>```
 
 | Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
