@@ -86,11 +86,25 @@ Example of single document JSON:
 | **ar**    | v1 | 433,472  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_ar.tar.gz)   | [19MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_ar.tar.gz.gpg)   |
 
 
-### Entity Cooccurrences ###
+### Entity Counts ###
+en   &   5,303,722	& 5,786,727	  & 1,276,917	& 6,956,439	& 360,323,792 \\ \hline
+es   &   2,393,366	& 901,370	    & 224,695  	& 1,038,284	& 62,373,952  \\ \hline
+it   &   1,467,486	& 799,988	    & 211,687	  & 931,369	  & 47,659,715  \\ \hline
+fr   &   1,750,536	& 1,670,491	  & 423,603	  & 1,952,818	& 93,790,881  \\ \hline
+de   &   1,818,649	& 2,168,723	  & 426,556	  & 2,438,583	& 103,738,278  \\ \hline
+ar   &   889,007	  & 394,024	    & 394,024	  & 433,472	  & 12,387,715   \\ \hline
 
-| Language  | **Version #**  | **Pari #**  | **Sample** | **Full** |
+| Language  | **Version #**  | **#**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
-| **en**    | v1 | x,xxx  |    [TODO](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_en.tar.gz.gpg)   |
+| **en**    | v1 | 1,276,917  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_sample_en.tar.gz)   | [15.9MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_en.tar.gz.gpg)   |
+| **es**    | v1 | 224,695  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_sample_es.tar.gz)   | [15.9MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_es.tar.gz.gpg)   |
+| **it**    | v1 | 211,687  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_sample_it.tar.gz)   | [15.9MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_it.tar.gz.gpg)   |
+| **fr**    | v1 | 423,603  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_sample_fr.tar.gz)   | [15.9MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_fr.tar.gz.gpg)   |
+| **de**    | v1 | 426,556  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_sample_de.tar.gz)   | [15.9MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_de.tar.gz.gpg)   |
+| **ar**    | v1 | 394,024  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_sample_ar.tar.gz)   | [15.9MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_ar.tar.gz.gpg)   |
+
+
+### Mention Counts ###
 
 
 ### Word2Vec - [GloVe](http://nlp.stanford.edu/projects/glove/) ###
