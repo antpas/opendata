@@ -118,7 +118,7 @@ In Submission ...
 
 BibTex:
 ```
-@inproceedings{Spasojevic:wiki_annotation,
+@inproceedings{Spasojevic:dawt,
  author = {Nemanja Spasojevic, Preeti Bhargava and Guoning Hu},
  title = {DAWT: Densely Annotated Wikipedia Texts across multiple languages},
  booktitle = {In Submission},
