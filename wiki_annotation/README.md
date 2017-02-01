@@ -77,7 +77,7 @@ Example of single document JSON:
 
 ### Entity-Mention Cooccurance ###
 
-Formar new lines separated by '\n' fields '\t' separated ```<entity_id>	<mention>	<total_count> <total_unique_doc_count>```
+__Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<mention>	<total_count> <total_unique_doc_count>```.
 
 | Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
@@ -90,6 +90,7 @@ Formar new lines separated by '\n' fields '\t' separated ```<entity_id>	<mention
 
 
 ### Entity Counts ###
+__Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<total_count> <total_unique_doc_count>```.
 
 | Language  | **Version #**  | **#**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
@@ -102,6 +103,8 @@ Formar new lines separated by '\n' fields '\t' separated ```<entity_id>	<mention
 
 
 ### Mention Counts ###
+__Format:__ new lines separated by '\n' fields '\t' separated, fields:```<mention>	<total_count> <total_unique_doc_count>```.
+
 
 | Language  | **Version #**  | **#**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
