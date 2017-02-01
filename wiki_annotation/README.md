@@ -23,7 +23,7 @@ TODO: - add explanation about the data set
 
 | Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
-| **en**    | v1 | 5,303,722  |    [TODO tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [TODO tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_en_json.tar.gz)   |
+| **en**    | v1 | 5,303,722  |    [725kb tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_en_json.tar.gz)   | [1/4 tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_en_part_00.tar.gz.gpg), [2/4 tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_en_part_01.tar.gz.gpg), [3/4 tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_en_part_02.tar.gz.gpg), [4/4 tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_en_part_03.tar.gz.gpg)   |
 | **es**    | v1 | 2,393,366 |    [373kb tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_es_json.tar.gz)   | [2.1GB tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_es_json.tar.gz)   |
 | **it**    | v1 | 1,467,486  |    [332KB tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_it_json.tar.gz)   | [1.6GB tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_it_json.tar.gz)   |
 | **fr**    | v1 | 1,750,536  |    [429KB tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_sample_fr_json.tar.gz)   | [2.8GB tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_fr_json.tar.gz)   |
