@@ -96,6 +96,11 @@ Example of single document JSON:
 | **1000**  | v1 | 1,612,117  | [1.9GB tar.gz 1/3](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz), [1.8GB tar.gz 2/3](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz), [1.6GB tar.gz 3/3](http://opendata.klout.com/wiki/word2vec/v1/wiki_entity_all_1000_vector_part_1.tar.gz)   | 
 
 
+### Freebase Id to WikiData Item Id
+
+| **Version #**  | **Entity #**  | **Sample** | **Full** |
+| v1 | 4,432,449 | [1.6K txt](https://github.com/klout/opendata/blob/master/wiki_annotation/freebase_id_wikidata_item_id_sample.txt) | [30MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wikidata_item_id.tar.gz)
+
 ### Decript GPG File ###
 
 ```
