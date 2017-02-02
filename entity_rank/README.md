@@ -37,8 +37,8 @@ The data is encoded as UTF-8 text in comma-separated format. The columns in the 
 
 If you use the dataset, please cite:
 ```
-Lithium Technologies | Klout, 
-Klout Entity Rank, 
+Prantik Bhattacharyya and Nemanja Spasojevic,
+Global Entity Ranking Across Multiple Languages,
 https://github.com/opendata, 
 03 01, 2017
 ```
@@ -46,8 +46,8 @@ https://github.com/opendata,
 BibTex:
 ```
 @inproceedings{klout:entity_rank,
- author = {Lithium Technologies | Klout,
- title = {Klout Entity Rank},
+ author = {Prantik Bhattacharyya and Nemanja Spasojevic,
+ title = {Global Entity Ranking Across Multiple Languages},
  howpublished = "\url{https://github.com/klout/opendata}",
  edition = "03 01, 2017"
 }
