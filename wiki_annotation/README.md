@@ -20,7 +20,7 @@ TODO: - add explanation about the data set
 
 
 ### Wikipedia Dense Annotations ###
-Formar new line separated JSON representing document annotations. Example of JSON below table.
+__Format:__ new line separated JSON representing document annotations. Example of JSON below table.
 
 | Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
