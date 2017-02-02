@@ -14,12 +14,12 @@ Files with gpg extensions are encrypted, to obtain obtain the key please:
 
 Example of how to decrypt file is [down below](https://github.com/klout/opendata/tree/master/wiki_annotation#decript-gpg-file).
 
-## Data Set ##
+## Data Sets ##
 
-TODO: - add explanation about the data set 
+In this work, we open up the DAWT dataset - Densely Annotated Wikipedia Texts across multiple languages. The annotations include labeled text mentions mapping to entities (represented by their Freebase machine ids) as well as the type of the entity. The data set contains total of 13.6M articles, 5.0B tokens, 13.8M mention entity co-occurrences. DAWT contains 4.8 times more anchor text to entity links than originally present in the Wikipedia markup. Moreover, it spans several languages including English, Spanish, Italian, German, French and Arabic. In addition to the main dataset, we open up several derived datasets including mention entity co-occurrence counts and entity word2vec, as well as mappings between Freebase ids and Wikidata item ids. We hope that opening them up would prove useful for the Natural Language Processing and Information Retrieval communities, as well as facilitate multi-lingual re- search.
 
 
-### Wikipedia Dense Annotations ###
+### DAWT : Densely Annotated Wikipedia Annotations ###
 __Format:__ new line separated JSON representing document annotations. Example of JSON below table.<br/>
 __Example:__ [Single Line 'Iran' wiki enry](https://github.com/klout/opendata/blob/master/wiki_annotation/wiki_annotations_json_sample_single_record_en), [100 wiki pages](https://github.com/klout/opendata/blob/master/wiki_annotation/wiki_annotations_json_sample_en), [formated example below](https://github.com/klout/opendata/blob/master/wiki_annotation/README.md#example-of-single-document-json). 
 
@@ -34,7 +34,7 @@ __Example:__ [Single Line 'Iran' wiki enry](https://github.com/klout/opendata/bl
 
 
 
-### Entity-Mention Cooccurance ###
+### Mention Entity Cooccurance ###
 
 __Format:__ ```<entity_id>	<mention>	<total_count> <total_unique_doc_count>``` - new lines separated by '\n' fields '\t' separated.<br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_mention_cooccurrences_sample_en.tsv)
@@ -49,7 +49,7 @@ __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/
 | **ar**    | v1 | 433,472  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_sample_ar.tar.gz)   | [19MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_mention_cooccurrences_ar.tar.gz.gpg)   |
 
 
-### Entity Counts ###
+### Entity Occurrence Counts ###
 __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<total_count> <total_unique_doc_count>```.<br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_counts_sample_en.tsv)
 
@@ -64,7 +64,7 @@ __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/
 | **ar**    | v1 | 186,787  |    [tar.gz](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_sample_ar.tar.gz)   | [1.6MB tar.gz.gpg](http://opendata.klout.com/wiki/entity_mention/v1/entity_counts_ar.tar.gz.gpg)   |
 
 
-### Mention Counts ###
+### Mention Occurrence Counts ###
 __Format:__ ```<mention>	<total_count> <total_unique_doc_count>``` - new lines separated by '\n' fields '\t' separated.<br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/mention_counts_sample_en.tsv)
 
