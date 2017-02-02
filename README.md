@@ -9,4 +9,4 @@ The following datasets are licensed under a [Creative Commons Attribution 3.0 Un
 
 [Entity rank dataset](entity_rank/README.md)
 
-[DAWT: Densely Annotated Wikipedia Texts across multiple languages](https://github.com/klout/opendata/tree/master/wiki_annotation)
+[DAWT: Densely Annotated Wikipedia Texts across multiple languages](https://github.com/klout/opendata/blob/master/wiki_annotation/README.md)
