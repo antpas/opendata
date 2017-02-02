@@ -79,7 +79,7 @@ Example of single document JSON:
 ### Entity-Mention Cooccurance ###
 
 __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<mention>	<total_count> <total_unique_doc_count>```.<br/>
-__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_mention_cooccurrences_sample_en)
+__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_mention_cooccurrences_sample_en.tsv)
 
 | Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
@@ -93,7 +93,7 @@ __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/
 
 ### Entity Counts ###
 __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<total_count> <total_unique_doc_count>```.<br/>
-__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_counts_sample_en)
+__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_counts_sample_en.tsv)
 
 
 | Language  | **Version #**  | **#**  | **Sample** | **Full** |
@@ -108,7 +108,7 @@ __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/
 
 ### Mention Counts ###
 __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<mention>	<total_count> <total_unique_doc_count>```.<br/>
-__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/mention_counts_sample_en)
+__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/mention_counts_sample_en.tsv)
 
 | Language  | **Version #**  | **#**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
