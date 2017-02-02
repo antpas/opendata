@@ -21,6 +21,7 @@ TODO: - add explanation about the data set
 
 ### Wikipedia Dense Annotations ###
 __Format:__ new line separated JSON representing document annotations. Example of JSON below table.
+__Example:__ [Single Line 'Iran' wiki enry](https://github.com/klout/opendata/blob/master/wiki_annotation/wiki_annotations_json_sample_single_record_en), [100 wiki pages](https://github.com/klout/opendata/blob/master/wiki_annotation/wiki_annotations_json_sample_en).
 
 | Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
@@ -78,6 +79,7 @@ Example of single document JSON:
 ### Entity-Mention Cooccurance ###
 
 __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<mention>	<total_count> <total_unique_doc_count>```.
+__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_mention_cooccurrences_sample_en)
 
 | Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
@@ -91,6 +93,8 @@ __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity
 
 ### Entity Counts ###
 __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<total_count> <total_unique_doc_count>```.
+__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_counts_sample_en)
+
 
 | Language  | **Version #**  | **#**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
@@ -104,7 +108,7 @@ __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity
 
 ### Mention Counts ###
 __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<mention>	<total_count> <total_unique_doc_count>```.
-
+__Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/mention_counts_sample_en)
 
 | Language  | **Version #**  | **#**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
@@ -117,6 +121,7 @@ __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<mentio
 
 
 ### Word2Vec - [GloVe](http://nlp.stanford.edu/projects/glove/) ###
+__Format:__ new lines separated by '\n' fields space (' ') separated, fields:```<entity_id> <val_1> <val_2> ... <val_N>```.
 
 | Vector Size  | **Version #**  | **Entity #**  | **Full** |
 |:----------|---:|-----------:|-----------:|
