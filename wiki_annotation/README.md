@@ -78,7 +78,7 @@ Example of single document JSON:
 
 ### Entity-Mention Cooccurance ###
 
-__Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<mention>	<total_count> <total_unique_doc_count>```.
+__Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<mention>	<total_count> <total_unique_doc_count>```.<br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_mention_cooccurrences_sample_en)
 
 | Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
