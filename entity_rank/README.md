@@ -52,3 +52,9 @@ BibTex:
  edition = "03 01, 2017"
 }
 ```
+
+### Appendex ### 
+
+![Example Entity Rankings Accross Aifferent Languages](example_entity_rankings_accross_different_languages.png)
+
+
