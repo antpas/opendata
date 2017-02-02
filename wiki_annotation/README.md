@@ -32,49 +32,7 @@ __Example:__ [Single Line 'Iran' wiki enry](https://github.com/klout/opendata/bl
 | **de**    | v1 | 1,818,649  |    [454KB tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_sample_de.tar.gz.gpg)   | [3.7GB tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_de.tar.gz)   |
 | **ar**    | v1 | 889,007  |    [297KB tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_sample_ar.tar.gz.gpg)   | [482MB tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_ar.tar.gz.gpg)   |
 
-Example of single document JSON:
-```
-{
-	"tokens": [{
-		"raw_form": "Vlade"
-	}, {
-		"raw_form": "Divac"
-	}, {
-		"raw_form": "is"
-	}, {
-		"raw_form": "a"
-	}, {
-		"raw_form": "retired"
-	}, {
-		"raw_form": "Serbian"
-	}, {
-		"raw_form": "NBA"
-	}, {
-		"raw_form": "player",
-		"break": "SENTENCE"
-	}],
-	"entities": [{
-		"id_str": "01vpr3",
-		"type": "PERSON",
-		"start_position": 0,
-		"end_position": 1,
-		"raw_form": "Vlade Divac"
-	}, {
-		"id_str": "077qn",
-		"type": "LOCATION",
-		"start_position": 5,
-		"end_position": 5,
-		"raw_form": "Serbian"
-	}, {
-		"id_str": "05jvx",
-		"type": "ORGANIZATION",
-		"start_position": 6,
-		"end_position": 6,
-		"raw_form": "NBA"
-	}],
-	"id": "wiki_page_id:en:322505:01vpr3:Vlade_Divac"
-}
-```
+
 
 ### Entity-Mention Cooccurance ###
 
@@ -180,3 +138,48 @@ BibTex:
 }
 ```
 
+## Appendix ##
+
+#### Example of single document JSON ####
+```
+{
+	"tokens": [{
+		"raw_form": "Vlade"
+	}, {
+		"raw_form": "Divac"
+	}, {
+		"raw_form": "is"
+	}, {
+		"raw_form": "a"
+	}, {
+		"raw_form": "retired"
+	}, {
+		"raw_form": "Serbian"
+	}, {
+		"raw_form": "NBA"
+	}, {
+		"raw_form": "player",
+		"break": "SENTENCE"
+	}],
+	"entities": [{
+		"id_str": "01vpr3",
+		"type": "PERSON",
+		"start_position": 0,
+		"end_position": 1,
+		"raw_form": "Vlade Divac"
+	}, {
+		"id_str": "077qn",
+		"type": "LOCATION",
+		"start_position": 5,
+		"end_position": 5,
+		"raw_form": "Serbian"
+	}, {
+		"id_str": "05jvx",
+		"type": "ORGANIZATION",
+		"start_position": 6,
+		"end_position": 6,
+		"raw_form": "NBA"
+	}],
+	"id": "wiki_page_id:en:322505:01vpr3:Vlade_Divac"
+}
+```
