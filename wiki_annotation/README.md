@@ -187,5 +187,5 @@ BibTex:
 }
 ```
 
-
+#### Visual `Tesla Motors` Annotation Example ####
 ![Tesla Motors Annotation Example](tesla_motors_en.png)
