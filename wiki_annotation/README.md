@@ -36,7 +36,7 @@ __Example:__ [Single Line 'Iran' wiki enry](https://github.com/klout/opendata/bl
 
 ### Entity-Mention Cooccurance ###
 
-__Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<mention>	<total_count> <total_unique_doc_count>```.<br/>
+__Format:__ ```<entity_id>	<mention>	<total_count> <total_unique_doc_count>``` - new lines separated by '\n' fields '\t' separated.<br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_mention_cooccurrences_sample_en.tsv)
 
 | Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
@@ -65,7 +65,7 @@ __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/
 
 
 ### Mention Counts ###
-__Format:__ new lines separated by '\n' fields '\t' separated, fields:```<mention>	<total_count> <total_unique_doc_count>```.<br/>
+__Format:__ ```<mention>	<total_count> <total_unique_doc_count>``` - new lines separated by '\n' fields '\t' separated.<br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/mention_counts_sample_en.tsv)
 
 | Language  | **Version #**  | **#**  | **Sample** | **Full** |
@@ -79,7 +79,7 @@ __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/
 
 
 ### Word2Vec - [GloVe](http://nlp.stanford.edu/projects/glove/) ###
-__Format:__ new lines separated by '\n' fields space (' ') separated, fields:```<entity_id> <val_1> <val_2> ... <val_N>```.<br/>
+__Format:__```<entity_id> <val_1> <val_2> ... <val_N>``` - new lines separated by '\n' fields space (' ') separated.<br/>
 
 | Vector Size  | **Version #**  | **Entity #**  | **Full** |
 |:----------|---:|-----------:|-----------:|
@@ -89,12 +89,14 @@ __Format:__ new lines separated by '\n' fields space (' ') separated, fields:```
 
 
 ### Freebase Id to WikiData Item Id
+__Format:__```<entity_id> <wiki_data_item_id>``` - new lines separated by '\n' fields space (' ') separated.<br/>
 
 | **Version #**  | **Entity #**  | **Sample** | **Full** |
 |---|-----------:|-----------:|---------:|
 | v1 | 4,432,449 | [1.6K txt](https://github.com/klout/opendata/blob/master/wiki_annotation/freebase_id_wikidata_item_id_sample.txt) | [30MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wikidata_item_id.tar.gz)
 
 ### Freebase Id to Wiki Page
+__Format:__```<entity_id> <wiki_url>``` - new lines separated by '\n' fields space (' ') separated.<br/>
 | Language  | **Version #**  | **Entity #**  | **Full** |
 |:----------|---:|-----------:|---------:|
 | **en**    | v1 | 4,316,959  | [67MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wiki_url.en.tar.gz) |
