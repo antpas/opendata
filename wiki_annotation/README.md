@@ -186,3 +186,6 @@ BibTex:
 	"id": "wiki_page_id:en:322505:01vpr3:Vlade_Divac"
 }
 ```
+
+
+![Tesla Motors Annotation Example](tesla_motors_en.png)
