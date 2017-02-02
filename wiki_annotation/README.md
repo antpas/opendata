@@ -187,5 +187,8 @@ BibTex:
 }
 ```
 
-#### Visual `Tesla Motors` Annotation Example ####
+#### Visual `Tesla Motors` Annotation Example - English ####
 ![Tesla Motors Annotation Example](tesla_motors_en.png)
+
+#### Visual `Tesla Motors` Annotation Example - Arab ####
+![Tesla Motors Annotation Example](tesla_motors_ar.png)
