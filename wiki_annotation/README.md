@@ -97,6 +97,7 @@ __Format:__```<entity_id> <wiki_data_item_id>``` - new lines separated by '\n' f
 
 ### Freebase Id to Wiki Page
 __Format:__```<entity_id> <wiki_url>``` - new lines separated by '\n' fields space (' ') separated.<br/>
+
 | Language  | **Version #**  | **Entity #**  | **Full** |
 |:----------|---:|-----------:|---------:|
 | **en**    | v1 | 4,316,959  | [67MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wiki_url.en.tar.gz) |
