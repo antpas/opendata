@@ -125,9 +125,17 @@ tar xvfz wiki_annotations_sample_es_json.tar.gz
 
 If you use the dataset, please cite:
 ```
+Nemanja Spasojevic, Preeti Bhargava and Guoning Hu,
+DAWT: Densely Annotated Wikipedia Texts across multiple languages,
+https://github.com/opendata, 
+03 01 2017
+```
+and
+```
 Nemanja Spasojevic, Preeti Bhargava and Guoning Hu
 DAWT: Densely Annotated Wikipedia Texts across multiple languages
-In Submission ...
+Proceedings of the 26th International Conference Companion on World Wide Web. 2017
+International World Wide Web Conferences Steering Committee
 ```
 
 BibTex:
