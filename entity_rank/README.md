@@ -47,7 +47,7 @@ and
 ```
 Prantik Bhattacharyya and Nemanja Spasojevic. 
 Global Entity Ranking Across Multiple Languages. 
-In Proc. of ACM World Wide Web Confer- ence 2017 (WWW’17)
+In Proc. of ACM World Wide Web Conference 2017 (WWW’17)
 ```
 
 BibTex:
