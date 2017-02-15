@@ -63,9 +63,10 @@ BibTex:
 @InProceedings{Bhattacharyya-importance,
   author       = {Bhattacharyya, Prantik and Spasojevic, Nemanja},
   title        = {Global Entity Ranking Across Multiple Languages},
-  booktitle    = {Proc. of ACM World Wide Web Conference 2017 (WWW'17)},
+  booktitle    = {Proceedings of the 26th International Conference on World Wide Web},
   pages        = {to appear},
-  organization = {ACM},
+  year         = {2017},
+  organization = {International World Wide Web Conferences Steering Committee}
 }
 ```
 
