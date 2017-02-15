@@ -42,6 +42,11 @@ Global Entity Ranking Across Multiple Languages,
 https://github.com/opendata, 
 03 01, 2017
 ```
+and
+
+```
+Prantik Bhattacharyya and Nemanja Spasojevic. 2017. Global Entity Ranking Across Multiple Languages. In Proc. of ACM World Wide Web Conference 2017 (WWW’17). ACM, to appear.
+```
 
 BibTex:
 ```
@@ -50,6 +55,16 @@ BibTex:
  title = {Global Entity Ranking Across Multiple Languages},
  howpublished = "\url{https://github.com/klout/opendata}",
  edition = "03 01, 2017"
+}
+```
+```
+@InProceedings{Bhattacharyya-importance,
+  author       = {Bhattacharyya, Prantik and Spasojevic, Nemanja},
+  title        = {Global Entity Ranking Across Multiple Languages},
+  booktitle    = {Proc. of ACM World Wide Web Conference 2017 (WWW'17)},
+  year         = {2017},
+  pages        = {to appear},
+  organization = {ACM},
 }
 ```
 
