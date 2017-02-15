@@ -135,9 +135,10 @@ BibTex:
 @inproceedings{Spasojevic:dawt,
  author = {Nemanja Spasojevic, Preeti Bhargava and Guoning Hu},
  title = {DAWT: Densely Annotated Wikipedia Texts across multiple languages},
- booktitle = {In Submission},
- series = {...},
- year = {2017}
+ booktitle = {Proceedings of the 26th International Conference Companion on World Wide Web.},
+ pages = {to appear},
+ year = {2017},
+ organization = {International World Wide Web Conferences Steering Committee}
 }
 ```
 
