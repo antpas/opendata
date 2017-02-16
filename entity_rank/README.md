@@ -36,13 +36,6 @@ The data is encoded as UTF-8 text in comma-separated format. The columns in the 
 ### Citing ###
 
 If you use the dataset, please cite:
-```
-Prantik Bhattacharyya and Nemanja Spasojevic,
-Global Entity Ranking Across Multiple Languages,
-https://github.com/opendata, 
-03 01, 2017
-```
-and
 
 ```
 Prantik Bhattacharyya and Nemanja Spasojevic. 
@@ -53,14 +46,7 @@ International World Wide Web Conferences Steering Committee
 ```
 
 BibTex:
-```
-@inproceedings{klout:entity_rank,
- author = {Prantik Bhattacharyya and Nemanja Spasojevic,
- title = {Global Entity Ranking Across Multiple Languages},
- howpublished = "\url{https://github.com/klout/opendata}",
- edition = "03 01, 2017"
-}
-```
+
 ```
 @InProceedings{Bhattacharyya-importance,
   author       = {Bhattacharyya, Prantik and Spasojevic, Nemanja},
