@@ -8,4 +8,4 @@
 
 [Entity rank dataset](entity_rank/README.md)
 
-[DAWT: Densely Annotated Wikipedia Texts across multiple languages](https://github.com/klout/opendata/blob/master/wiki_annotation/README.md)
+[DAWT: Densely Annotated Wikipedia Texts across multiple languages](https://github.com/klout/opendata/blob/master/wiki_annotation/README.md) ([arxiv](https://arxiv.org/pdf/1703.00948.pdf))
