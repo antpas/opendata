@@ -1,0 +1,43 @@
+package com.lithium.text.proto;
+
+// Author: Nemanja Spasojevic (nemanja.spasojevic@lithium.com)
+// Example of proto used to encode JSON's. 
+
+// Minified/simplified version of the TextProto designed to support outwards facing.
+message OpenTextProto {
+  // General model properties.
+  optional string text                         = 1;
+  optional string normalized_text              = 2;
+  optional string encoding                     = 3;
+  optional bool left_to_right                  = 4;
+  optional string language                     = 5;
+  repeated OpenTokenProto tokens                   = 6;
+  repeated OpenAnnotationProto entities        = 7;
+  optional string id                           = 8;
+}
+
+// For a given annotation namespace
+message OpenAnnotationProto {
+  optional string  id_str        = 1; // str memory efficient storage if posible.\
+  optional string  type          = 3; // External type of the identifier.
+
+  optional int32 start_position  = 4;
+  optional int32 end_position    = 5;
+
+  optional string raw_form       = 6;
+}
+
+message OpenTokenProto {
+  enum Section {
+    SENTENCE  = 1;
+    PARAGRAPH = 2;
+    CHAPTER   = 3;
+  }
+
+  optional int32 start_position       = 1;
+  optional int32 end_position         = 2;
+  optional string language            = 3;
+  optional bool left_to_right         = 4;
+  optional string raw_form            = 5;
+  repeated Section section_break      = 6;
+}
