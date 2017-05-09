@@ -11,7 +11,7 @@ message OpenTextProto {
   optional string encoding                     = 3;
   optional bool left_to_right                  = 4;
   optional string language                     = 5;
-  repeated OpenTokenProto tokens                   = 6;
+  repeated OpenTokenProto tokens               = 6;
   repeated OpenAnnotationProto entities        = 7;
   optional string id                           = 8;
 }
