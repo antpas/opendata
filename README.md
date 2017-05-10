@@ -6,6 +6,6 @@
 
 [Political leaning dataset](political_leaning/README.md) ([arxiv](https://arxiv.org/pdf/1607.02501.pdf), [slides](http://www.slideshare.net/sofrasofra/actionable-and-political-text-classification-using-word-embeddings-and-lstm))
 
-[Entity rank dataset](entity_rank/README.md) ([arxiv](https://arxiv.org/pdf/1703.06108.pdf])
+[Entity rank dataset](entity_rank/README.md) ([arxiv](https://arxiv.org/pdf/1703.06108.pdf]))
 
 [DAWT: Densely Annotated Wikipedia Texts across multiple languages](https://github.com/klout/opendata/blob/master/wiki_annotation/README.md) ([arxiv](https://arxiv.org/pdf/1703.00948.pdf))
