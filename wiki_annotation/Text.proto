@@ -1,0 +1,212 @@
+package com.lithium.text.proto;
+
+// 
+// Author: Nemanja Spasojevic (nemanja.spasojevic@lithium.com)
+//
+// Proto buffer container for the annotated text fragment.
+message TextProto {
+  enum Stage {
+    LANGUAGE_DETECTION     = 1;  // text     -> language                     | L = L(text)
+    TEXT_NORMALIZATION     = 2;  // text     -> text (stem, lemization etc)  | text' = N(text, L)
+    TOKENIZE               = 3;  // text     -> tokens                       | T = T(text', L)
+    SENTENCE_BREAKER       = 4;  // text     -> sentences                    | S = S(text', L)
+    ENTITY_EXTRACTION      = 5;  // tokens   -> entities (E(T)1:N mapping)   | E = E(T)
+    ENTITY_DISAMBIGUATION  = 6;  // entities -> entities (N:M, N > M apping) | D = D(E, L, context)
+    TOPIC_PROJECTION       = 7;  // entities -> topics                       | O = O(D, L, ontology)
+    HASHTAG_RECOMMENDATION = 8;  // topics   -> hashtags
+    LABEL                  = 9;  // text     -> labels
+    DECORATOR              = 10; // text     -> decorate(text, {summary, types, geo})
+  }
+
+  enum AnnotationType {
+    TEXT_TOKEN   = 1;
+    ENTITY       = 2;
+    KLOUT_TOPIC  = 3;
+    LOCATION     = 4;
+    HASHTAG      = 5;
+  }
+
+  enum Section {
+    SENTENCE  = 1;
+    PARAGRAPH = 2;
+    CHAPTER   = 3;
+  }
+
+  // Shared Text Features. Only the text generic features should be defined here.
+  // Anything that is business logic or taylored to business case should not reside here.
+  enum Feature {
+    CHARACTER                          = 1;
+    WORD                               = 2;
+    URL                                = 3;
+    EMOTICON                           = 4;
+  }
+
+  // Status, Existence, Polarity etc
+  enum FeatureQualifier {
+    GENERAL                           = 1; // default qualifier
+    SPECIAL                           = 2; // eg. CHARACTER_SPECIAL
+    POSITIVE                          = 3;
+    NEGATIVE                          = 4;
+  }
+
+  enum FeatureQuantifier {
+    SCORE                             = 1; // default quantifier
+    SCALED                            = 2;
+    COUNT                             = 3;
+    GREATER_THAN                      = 4;
+    LESS_THAN                         = 5;
+    PRESENT                           = 6;  // binary quantifier
+    // others here could be UNIQUES, PERCENTAGE, RATING etc
+  }
+
+  // General model properties.
+  optional string text                     = 1;
+  optional string normalized_text          = 2;
+
+  optional string encoding                 = 3;
+  optional bool left_to_right              = 4;
+
+  optional string language                 = 5;
+  repeated NamedValueProto languages       = 6;
+
+  repeated TokenProto token                = 7;
+  optional ProcessingInfoProto info        = 8;
+
+  repeated NamedValueProto features        = 9;
+
+  repeated AnnotationContainerProto annotation_container = 10;
+
+  optional string id = 11; // External reference
+
+  repeated AnnotationSummaryProto annotation_summary   = 12; // Similar to container excep that in this case
+  // we aggregate annotations across document and surface limited amount of them, not linking back to tokens.
+
+  optional string processor_id    = 13; // Unique identifier ideally encoding version of text library,
+  // optionally config name and maybe timestamp of processing.
+
+  optional double sentiment       = 14; // [-1, 1]  Global sentence level sentiment.
+
+  optional NamedValueProto labels = 15; // Free form labels.
+
+  repeated NamedValueProto stats  = 16; // Free form labels.
+}
+
+message TokenProto {
+  optional int32 start_position       = 1;
+  optional int32 end_position         = 2;
+
+  optional string language            = 3;
+  optional bool left_to_right         = 4;
+
+  optional string raw_form            = 5;
+  optional string lemmatized_form     = 6;
+
+  repeated TextProto.Section section_break      = 7;
+
+  repeated AnnotationPointer annotation_pointer = 8;
+}
+
+message AnnotationPointer {
+  optional int32 container_index = 1; // pointer to the index in the annotation on the top level
+  optional int32 index           = 2; // pointer to the index in the annotation on the top level
+}
+
+message AnnotationContainerProto {
+  optional TextProto.AnnotationType type = 1; // Eg. 'TEXT_TOKENS', 'ENTITY', 'KLOUT_TOPIC', 'LOCATION'
+  repeated AnnotationProto annotation    = 2;
+  optional string language               = 3;  // Generic will have '~' (freebase, topic ontology), tokens have specific language
+}
+
+message AnnotationSummaryProto {
+  optional TextProto.AnnotationType type                 = 1; // Eg. 'TEXT_TOKENS', 'ENTITY', 'KLOUT_TOPIC', 'LOCATION'
+  repeated AnnotationIdentifier annotation_identifier    = 2;
+}
+
+message AnnotationIdentifier {
+  optional string  id_str        = 1; // str memory efficient storage if posible.
+  optional int64   id_int64      = 2; // Int64 memory efficient storage if posible.
+  optional string  id_readable   = 3; // Id in readable form (eg. 'Display')
+  optional string  id_url        = 4; // External reference to the id. (Wg. Freebase, Wiki Page, Klout Topical Page)
+  optional double  score         = 5;
+  optional string  type          = 6; // External type of the identifier (eg. PERSON, LOCATION, EVENT, MISC, ...).
+
+  optional GeoMetadata geo_metadata = 7;
+//  repeated DebugFeatures features   = 8;
+}
+
+message GeoMetadata {
+  optional string  id_str       = 1;
+  optional string  id_readable  = 2; // Id in readable form (eg. 'Display')
+  optional string  type         = 3;
+  optional double  longitude    = 4;
+  optional double  latitude     = 5;
+  optional double  elevation    = 6;
+  optional double  area         = 7;
+  optional double  population   = 8;
+  optional string  country_code = 9;
+  optional string  time_zone    = 10;
+}
+
+//message DebugFeatures {
+//  optional string name  = 1;
+//  optional string value = 2;
+//  optional string info  = 3;
+//}
+
+
+// For a given annotation namespace
+message AnnotationProto {
+  optional AnnotationIdentifier disambiguated_id  = 1;  // Disambiguated id.
+  repeated AnnotationIdentifier id                = 2;
+
+  optional int32 start_position = 3;
+  optional int32 end_position   = 4;
+
+  optional string raw_form      = 5;
+  optional double score         = 6; // Weight. (Eg. 1.0)
+  optional double confidence    = 7; // Confidence metrics eg.
+
+  optional double sentiment     = 8; // [-1, 1]
+}
+
+message RelatedToken {
+  optional string relation_type   = 1;  // Namespace of the relation.
+  optional string relation        = 2;  // Relation via which tokens are related.
+  optional int32 token_index      = 3;  // Relation via which tokens are related.
+  optional int32 text             = 4;  // Relation via which tokens are related.
+}
+
+message ProcessingInfoProto {
+  optional int64 timestamp         = 1;
+  optional string processor        = 2;  // Eg. versioned processor name.
+}
+
+message NamedValueProto {
+  optional string name        = 1;
+  optional double value       = 2;
+  optional string value_str   = 3;
+  optional string evidence    = 4;
+}
+
+message ContextContainerProto {
+  optional ContextProto.ContextType context_type   = 1;
+  optional TextProto.AnnotationType annotation_type    = 2;
+  repeated AnnotationIdentifier annotation             = 3;
+  optional string language                             = 4;
+  optional string id                                   = 5;
+}
+
+message ContextProto {
+  enum ContextType {
+    SENTENCE     = 1;
+    DOCUMENT     = 2;
+    DOMAIN       = 3;
+
+    AUTHOR       = 4;
+    ACTOR        = 5;
+
+    WINDOW       = 6;
+  }
+  repeated ContextContainerProto context = 1;
+  optional string id                     = 2;
+}
