@@ -1,4 +1,4 @@
-# DAWT: Densely Annotated Wikipedia Texts across multiple languages #
+# (DRAFT - NOT READY FOR USE) V2: DAWT - Densely Annotated Wikipedia Texts across multiple languages #
 
 ## Usage ##
 
@@ -25,7 +25,7 @@ __Example:__ [Single Line 'Iran' wiki enry](https://github.com/klout/opendata/bl
 
 | Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
-| **en**    | v2 | 5,247,345 |    [5.1M tar.gz](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_sample_en.tar.gz)   | [79G tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_en.tar.gz.gpg)   |
+| **en**  TODO-UPDATE  | v2 | 5,247,345 |    [5.1M tar.gz](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_sample_en.tar.gz)   | [79G tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_en.tar.gz.gpg)   |
 | **sv**    | v2 | 3,770,296 |    [2.9M tar.gz](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_sample_sv.tar.gz)   | [19G tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_sv.tar.gz.gpg)   |
 | **nl**    | v2 | 1,825,830 |    [2.9M tar.gz](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_sample_nl.tar.gz)   | [11G tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_nl.tar.gz.gpg)   |
 | **de**    | v2 | 1,817,719 |    [3.5M tar.gz](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_sample_de.tar.gz)   | [31G tar.gz.gpg](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_de.tar.gz.gpg)   |
@@ -220,16 +220,16 @@ __Format:__```<entity_id> <val_1> <val_2> ... <val_N>``` - new lines separated b
 |:----------|---:|-----------:|-----------:|
 | **50**    | v2 | 7,564,041  | [1.5G tar.gz](http://opendata.klout.com/wiki/word2vec/v2/wiki_entity_all_50_vectors.tar.gz)   | 
 | **100**   | v2 | 7,564,041  | [2.8G tar.gz](http://opendata.klout.com/wiki/word2vec/v2/wiki_entity_all_100_vectors.tar.gz)   | 
-| **300**   | v2 | 7,564,041  | [4.1G tar.gz](http://opendata.klout.com/wiki/word2vec/v2/wiki_entity_all_300_vectors.tar.gz)  | 
+| **300**   | v2 | 7,564,041  | [1/1 4.1G tar.gz](http://opendata.klout.com/wiki/word2vec/v2/wiki_entity_all_300_vector_part_01.tar.gz), [1/2 4.1G tar.gz](http://opendata.klout.com/wiki/word2vec/v2/wiki_entity_all_300_vector_part_02.tar.gz)  | 
 
-### Freebase Id to WikiData Item Id
+### TODO-UPDATE Freebase Id to WikiData Item Id
 __Format:__```<entity_id> <wiki_data_item_id>``` - new lines separated by '\n' fields space (' ') separated.<br/>
 
 | **Version #**  | **Entity #**  | **Sample** | **Full** |
 |---|-----------:|-----------:|---------:|
 | v1 | 4,432,449 | [1.6K txt](https://github.com/klout/opendata/blob/master/wiki_annotation/freebase_id_wikidata_item_id_sample.txt) | [30MB tar.gz](http://opendata.klout.com/wiki/freebase_wikidata_mappings/v1/freebase_id_wikidata_item_id.tar.gz)
 
-### Freebase Id to Wiki Page
+### TODO-UPDATE Freebase Id to Wiki Page
 __Format:__```<entity_id> <wiki_url>``` - new lines separated by '\n' fields space (' ') separated.<br/>
 
 | Language  | **Version #**  | **Entity #**  | **Full** |
