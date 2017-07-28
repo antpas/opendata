@@ -25,7 +25,7 @@ __Example:__ [Single Line 'Iran' wiki enry](https://github.com/klout/opendata/bl
 
 | Language  | **Version #**  | **Doc #**  | **Sample** | **Full** |
 |:----------|---:|-----------:|-----------:|---------:|
-| **es**    | v1 | 2,393,366 |    [373kb tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_sample_es.tar.gz.gpg)   | [2.1GB tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_es.tar.gz)   |
+| **ar**    | v2 | 585,895 |    [2.9M tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_sample_ar.tar.gz)   | [4.5G tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v2/wiki_annotations_json_ar.tar.gz.gpg)   |
 
 
 
