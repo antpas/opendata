@@ -32,11 +32,10 @@ __Example:__ [Single Line 'Iran' wiki enry](https://github.com/klout/opendata/bl
 | **de**    | v1 | 1,818,649  |    [454KB tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_sample_de.tar.gz.gpg)   | [3.7GB tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_de.tar.gz)   |
 | **ar**    | v1 | 889,007  |    [297KB tar.gz ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_sample_ar.tar.gz.gpg)   | [482MB tar.gz.gpg ](http://opendata.klout.com/wiki/wiki_annotation/v1/wiki_annotations_json_ar.tar.gz.gpg)   |
 
-
-
 ### Mention Entity Cooccurance ###
 
-__Format:__ ```<entity_id>	<mention>	<total_count> <total_unique_doc_count>``` - new lines separated by '\n' fields '\t' separated.<br/>
+__Format:__ ```<entity_id>	<mention>	<total_count> <total_unique_doc_count>``` - new lines separated by '\n' fields '\t' separated. <br/>
+__NOTE:__ some resouces have been reported to be ```'\001'``` separate in which case you may wanna ```cat <filename> | tr '\001' '\t' > <new_filename>```  <br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_mention_cooccurrences_sample_en.tsv)
 
 | Language  | **Version #**  | **Pair #**  | **Sample** | **Full** |
@@ -51,6 +50,7 @@ __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/
 
 ### Entity Occurrence Counts ###
 __Format:__ new lines separated by '\n' fields '\t' separated, fields:```<entity_id>	<total_count> <total_unique_doc_count>```.<br/>
+__NOTE:__ some resouces have been reported to be ```'\001'``` separate in which case you may wanna ```cat <filename> | tr '\001' '\t' > <new_filename>```  <br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/entity_counts_sample_en.tsv)
 
 
@@ -66,6 +66,7 @@ __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/
 
 ### Mention Occurrence Counts ###
 __Format:__ ```<mention>	<total_count> <total_unique_doc_count>``` - new lines separated by '\n' fields '\t' separated.<br/>
+__NOTE:__ some resouces have been reported to be ```'\001'``` separate in which case you may wanna ```cat <filename> | tr '\001' '\t' > <new_filename>```  <br/>
 __Example:__ [English Sample Set](https://github.com/klout/opendata/blob/master/wiki_annotation/mention_counts_sample_en.tsv)
 
 | Language  | **Version #**  | **#**  | **Sample** | **Full** |
@@ -90,6 +91,7 @@ __Format:__```<entity_id> <val_1> <val_2> ... <val_N>``` - new lines separated b
 
 ### Freebase Id to WikiData Item Id
 __Format:__```<entity_id> <wiki_data_item_id>``` - new lines separated by '\n' fields space (' ') separated.<br/>
+__NOTE:__ some resouces have been reported to be ```'\001'``` separate in which case you may wanna ```cat <filename> | tr '\001' '\t' > <new_filename>```  <br/>
 
 | **Version #**  | **Entity #**  | **Sample** | **Full** |
 |---|-----------:|-----------:|---------:|
@@ -97,6 +99,7 @@ __Format:__```<entity_id> <wiki_data_item_id>``` - new lines separated by '\n' f
 
 ### Freebase Id to Wiki Page
 __Format:__```<entity_id> <wiki_url>``` - new lines separated by '\n' fields space (' ') separated.<br/>
+__NOTE:__ some resouces have been reported to be ```'\001'``` separate in which case you may wanna ```cat <filename> | tr '\001' '\t' > <new_filename>```  <br/>
 
 | Language  | **Version #**  | **Entity #**  | **Full** |
 |:----------|---:|-----------:|---------:|
