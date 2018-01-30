@@ -48,14 +48,23 @@ International World Wide Web Conferences Steering Committee
 BibTex:
 
 ```
-@InProceedings{Bhattacharyya-importance,
-  author       = {Bhattacharyya, Prantik and Spasojevic, Nemanja},
-  title        = {Global Entity Ranking Across Multiple Languages},
-  booktitle    = {Proceedings of the 26th International Conference on World Wide Web},
-  pages        = {to appear},
-  year         = {2017},
-  organization = {International World Wide Web Conferences Steering Committee}
-}
+@inproceedings{Bhattacharyya:2017:GER:3041021.3054213,
+ author = {Bhattacharyya, Prantik and Spasojevic, Nemanja},
+ title = {Global Entity Ranking Across Multiple Languages},
+ booktitle = {Proceedings of the 26th International Conference on World Wide Web Companion},
+ series = {WWW '17 Companion},
+ year = {2017},
+ isbn = {978-1-4503-4914-7},
+ location = {Perth, Australia},
+ pages = {761--762},
+ numpages = {2},
+ url = {https://doi.org/10.1145/3041021.3054213},
+ doi = {10.1145/3041021.3054213},
+ acmid = {3054213},
+ publisher = {International World Wide Web Conferences Steering Committee},
+ address = {Republic and Canton of Geneva, Switzerland},
+ keywords = {entity extraction, entity ranking, knowledge base},
+} 
 ```
 
 ### Appendex ###
