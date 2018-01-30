@@ -137,14 +137,23 @@ International World Wide Web Conferences Steering Committee
 
 BibTex:
 ```
-@InProceedings{Spasojevic:dawt,
-  author       = {Spasojevic, Nemanja and Bhargava, Preeti and Hu, Guoning},
-  title        = {DAWT: Densely Annotated Wikipedia Texts across multiple languages},
-  booktitle    = {Proceedings of the 26th International Conference Companion on World Wide Web.},
-  year         = {2017},
-  pages        = {to appear},
-  organization = {International World Wide Web Conferences Steering Committee},
-}
+@inproceedings{Spasojevic:2017:DDA:3041021.3053367,
+ author = {Spasojevic, Nemanja and Bhargava, Preeti and Hu, Guoning},
+ title = {DAWT: Densely Annotated Wikipedia Texts Across Multiple Languages},
+ booktitle = {Proceedings of the 26th International Conference on World Wide Web Companion},
+ series = {WWW '17 Companion},
+ year = {2017},
+ isbn = {978-1-4503-4914-7},
+ location = {Perth, Australia},
+ pages = {1655--1662},
+ numpages = {8},
+ url = {https://doi.org/10.1145/3041021.3053367},
+ doi = {10.1145/3041021.3053367},
+ acmid = {3053367},
+ publisher = {International World Wide Web Conferences Steering Committee},
+ address = {Republic and Canton of Geneva, Switzerland},
+ keywords = {entity disambiguation, entity linking, freebase, freebase annotations, named entity recognition, wiki, wikification, wikipedia, wikipedia annotations},
+} 
 ```
 
 ## Appendix ##
