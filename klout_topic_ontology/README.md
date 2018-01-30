@@ -50,10 +50,21 @@ https://github.com/opendata,
 
 BibTex:
 ```
-@inproceedings{klout:topic_ontology,
- author = {Klout,
- title = {Klout Topic Ontology},
- howpublished = "\url{https://github.com/klout/opendata}",
- edition = "02 23, 2015"
+@article{DBLP:journals/corr/abs-1710-09824,
+  author    = {Sarah Ellinger and
+               Prantik Bhattacharyya and
+               Preeti Bhargava and
+               Nemanja Spasojevic},
+  title     = {Klout Topics for Modeling Interests and Expertise of Users Across
+               Social Networks},
+  journal   = {CoRR},
+  volume    = {abs/1710.09824},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1710.09824},
+  archivePrefix = {arXiv},
+  eprint    = {1710.09824},
+  timestamp = {Thu, 02 Nov 2017 14:25:36 +0100},
+  biburl    = {http://dblp.org/rec/bib/journals/corr/abs-1710-09824},
+  bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 ```
