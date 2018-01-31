@@ -3,7 +3,7 @@ The following datasets are licensed under a [Creative Commons Attribution 3.0 Un
 
 ### Download ###
 
-[Klout Topic Ontology - 2018-01-01](dataset/entity_topic_ground_truth_20180101.csv) 
+[Klout Topic Ontology - 2018-01-01](dataset/entity_to_topic_labels_20180101.tsv) 
 
 ### File Format ###
 
