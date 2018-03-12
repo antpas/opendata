@@ -41,7 +41,7 @@ BibTex:
 ```
 @inproceedings{klout:entity_to_topic,
  author = {Preeti Bhargava, Nemanja Spasojevic, Sarah Ellinger, Adithya Rao, Abhinand Menon, Saul Fuhrmann, Guoning Hu}
- title = {Assigning Topics to Entities for Semantically Annotation and Categorization Text},
+ title = {Learning To Map Entities To Predefined Topics},
  howpublished = "\url{https://github.com/klout/opendata}",
  edition = "TBD"
 }
