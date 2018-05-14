@@ -3,7 +3,11 @@ The following datasets are licensed under a [Creative Commons Attribution 3.0 Un
 
 ### Download ###
 
-[Klout Topic Ontology - 2017-05-09](dataset/klout_topic_ontology_20170509.csv) 
+[Klout Topic Ontology - 2018-06-01](dataset/klout_topic_ontology_20180601.csv) [(sample)](dataset/klout_topic_ontology_20180601_sample.csv) 
+
+[Klout Topic Edges - 2018-06-01](dataset/klout_topic_edge_20180601.csv) [(sample)](dataset/klout_topic_edge_20180601_sample.csv) 
+
+[Klout Topic Display Names - 2018-06-01](dataset/klout_topic_display_20180601.csv) [(sample)](dataset/klout_topic_display_sample.csv) 
 
 ### File Format ###
 
