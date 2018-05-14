@@ -7,7 +7,7 @@ The following datasets are licensed under a [Creative Commons Attribution 3.0 Un
 
 [Klout Topic Edges - 2018-06-01](dataset/klout_topic_edge_20180601.csv) [(sample)](dataset/klout_topic_edge_20180601_sample.csv) 
 
-[Klout Topic Display Names - 2018-06-01](dataset/klout_topic_display_20180601.csv) [(sample)](dataset/klout_topic_display_sample.csv) 
+[Klout Topic Display Names - 2018-06-01](dataset/klout_topic_display_20180601.csv) [(sample)](dataset/klout_topic_display_20180601_sample.csv) 
 
 ### File Format ###
 
