@@ -9,40 +9,46 @@ The following datasets are licensed under a [Creative Commons Attribution 3.0 Un
 
 [Klout Topic Display Names - 2018-06-01](dataset/klout_topic_display_20180601.csv) [(sample)](dataset/klout_topic_display_20180601_sample.csv) 
 
-### File Format ###
+### Ontology File Format ###
 
 The data is encoded as UTF-8 text in comma-separated format. The columns in the dataset are defined as:
 
 * topicId (signed int64)
 * topicSlug (string)
 * topicDisplayName (string)
+* wikiItemId (string)
+* freebaseMachineId (string)
 
-### Example ###
+#### Example #### 
+![Ontology File Format Example](images/klout_topic_ontology.png)
 
-| topicId|topicSlug|topicDisplayName                     | 
-|:---:|---------------------|------------------------------| 
-| 2|zumba|Zumba                                            | 
-| 11|word-of-mouth-marketing|Word of Mouth Marketing       | 
-| 20|tom-and-jerry|Tom and Jerry                           | 
-| 21|womens-rights|Women's Rights                          | 
-| 30|wu-tang-clan|Wu Tang Clan                             | 
-| 37|tottenham|Tottenham                                   | 
-| 41|zelda|Zelda                                           | 
-| 45|wind-power|Wind Power                                 | 
-| 51|twentieth-century|Twentieth Century                   | 
-| 55|wil-wheaton|Wil Wheaton                               | 
-| 61|the-onion|The Onion                                   | 
-| 64|three-days-grace|Three Days Grace                     | 
-| 68|texas-instruments|Texas Instruments                   | 
-| 69|yosemite-national-park|Yosemite National Park         | 
-| 71|stirling|Stirling                                     | 
-| 73|wonderwall|Wonderwall                                 | 
-| 74|x-factor|The X Factor                                 | 
-| 75|seattle-post-intelligencer|Seattle Post-Intelligencer | 
-| 76|vince-carter|Vince Carter                             | 
+
+### Topic Edges File Format ###
+
+The data is encoded as UTF-8 text in comma-separated format. The columns in the dataset are defined as:
+
+* parentTopicId (signed int64)
+* parentTopicSlug (string)
+* childTopicId (signed int64)
+* childTopicSlug (string)
+
+#### Example #### 
+![Topic Edges File Format](images/edge_example.png)
+
+### Display Names File Format ###
+
+The data is encoded as UTF-8 text in comma-separated format. The columns in the dataset are defined as:
+
+* topicId (signed int64)
+* language (string)
+* topicDisplayName (string)
+
+#### Example #### 
+![Topic Edges File Format](images/display_example.png)
 
 
 ### Citing ###
+
 
 If you use the dataset, please cite:
 ```
@@ -72,3 +78,5 @@ BibTex:
   bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 ```
+
+![Paper](images/onthology_paper.png)
