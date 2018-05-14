@@ -5,7 +5,7 @@ The following datasets are licensed under a [Creative Commons Attribution 3.0 Un
 
 [Entity To Topics Labels - 2018-01-01](dataset/entity_to_topic_labels_20180101.csv) 
 
-[Entity To Topic Projections - 2018-06-01](dataset/entity_to_klout_topic_mapping_20180601.txt) 
+[Entity To Topic Projections - 2018-06-01](https://raw.githubusercontent.com/klout/opendata/master/entity_to_topic_mapping/dataset/entity_to_klout_topic_mapping_20180601.txt) 
 [readable sample](dataset/entity_to_klout_topic_mapping_example_20180601.txt)
 
 ### Entity To Topics Labels File Format ###
