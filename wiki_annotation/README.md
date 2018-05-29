@@ -7,10 +7,7 @@ same as [Wikipedia Database Dumps](https://dumps.wikimedia.org/).
 
 ![CC BY-NC-SA](CC-BY-NC-SA.png)
 
-Files with gpg extensions are encrypted, to obtain obtain the key please:
-  * Send an email to **team-relevance@klout.com**.
-  * Let us know what academic institution you are affiliated with.
-  * Briefly describe what and how you are planning to use the data.
+Files with gpg extensions are encrypted, key is now avaiable [here](https://github.com/klout/opendata/blob/master/wiki_annotation/v1.gpg_key).
 
 Example of how to decrypt file is [down below](https://github.com/klout/opendata/tree/master/wiki_annotation#decript-gpg-file).
 
